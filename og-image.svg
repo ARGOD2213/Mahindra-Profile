@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07101d" />
+      <stop offset="100%" stop-color="#0f1e35" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4bc7ba" />
+      <stop offset="100%" stop-color="#e6a93d" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="1040" cy="120" r="180" fill="#4bc7ba" opacity="0.12" />
+  <circle cx="170" cy="520" r="220" fill="#e6a93d" opacity="0.12" />
+  <rect x="70" y="70" width="1060" height="490" rx="36" fill="#0d182a" stroke="#223451" stroke-width="2" />
+
+  <rect x="110" y="112" width="120" height="120" rx="28" fill="none" stroke="url(#accent)" stroke-width="4" />
+  <text x="170" y="188" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#eef5ff">CM</text>
+
+  <text x="110" y="290" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#e6a93d">JAVA BACKEND DEVELOPER</text>
+  <text x="110" y="360" font-family="Arial, sans-serif" font-size="58" font-weight="700" fill="#eef5ff">Chintala Mahindra</text>
+  <text x="110" y="420" font-family="Arial, sans-serif" font-size="28" fill="#d6e4f7">
+    Spring Boot, secure REST APIs, SQL Server workflows,
+  </text>
+  <text x="110" y="460" font-family="Arial, sans-serif" font-size="28" fill="#d6e4f7">
+    AWS-connected systems, enterprise HRMS, finance, and IoT products
+  </text>
+
+  <g font-family="Arial, sans-serif" font-size="24" fill="#eef5ff">
+    <rect x="110" y="500" width="188" height="44" rx="22" fill="#13233d" stroke="#2a425e" />
+    <text x="204" y="529" text-anchor="middle">Spring Boot</text>
+    <rect x="316" y="500" width="164" height="44" rx="22" fill="#13233d" stroke="#2a425e" />
+    <text x="398" y="529" text-anchor="middle">REST APIs</text>
+    <rect x="498" y="500" width="162" height="44" rx="22" fill="#13233d" stroke="#2a425e" />
+    <text x="579" y="529" text-anchor="middle">SQL Server</text>
+    <rect x="678" y="500" width="128" height="44" rx="22" fill="#13233d" stroke="#2a425e" />
+    <text x="742" y="529" text-anchor="middle">AWS</text>
+  </g>
+</svg>

@@ -7,7 +7,9 @@ Premium single-page portfolio for Chintala Mahindra, built as a static site for 
 - `index.html` - portfolio content and structure
 - `styles.css` - custom visual design, layout, and responsive styling
 - `script.js` - section reveal and metric animations
-- `assets/` - optional local copies of profile assets
+- `assets/` - profile photo and downloadable resume
+- `favicon.svg` and `og-image.svg` - branding and social preview assets
+- `robots.txt` and `site.webmanifest` - deployment-ready metadata
 
 ## Deploy on Vercel
 
@@ -19,3 +21,12 @@ Premium single-page portfolio for Chintala Mahindra, built as a static site for 
 6. Deploy
 
 Because this is a static site, Vercel can serve it without any install or build step.
+
+## Optional custom domain
+
+After the first deploy, you can add a custom domain in Vercel:
+
+1. Open the project in Vercel
+2. Go to `Settings -> Domains`
+3. Add your domain
+4. Update DNS as instructed by Vercel

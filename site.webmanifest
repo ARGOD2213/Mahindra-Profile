@@ -1,0 +1,15 @@
+{
+  "name": "Chintala Mahindra Portfolio",
+  "short_name": "Mahindra",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09111f",
+  "theme_color": "#09111f",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

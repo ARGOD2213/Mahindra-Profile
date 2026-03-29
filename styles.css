@@ -242,6 +242,12 @@ p {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.button.tertiary {
+  background: transparent;
+  border: 1px solid rgba(75, 199, 186, 0.28);
+  color: #cdeeed;
+}
+
 .signal-bar {
   display: flex;
   flex-wrap: wrap;
@@ -374,6 +380,33 @@ p {
   padding-top: 54px;
 }
 
+.impact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.impact-card,
+.proof-card {
+  background: linear-gradient(180deg, rgba(17, 29, 49, 0.92), rgba(11, 20, 35, 0.88));
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(14px);
+}
+
+.impact-card {
+  padding: 28px;
+  border-radius: var(--radius-lg);
+}
+
+.impact-number {
+  display: inline-block;
+  margin-bottom: 14px;
+  font-family: "Syne", sans-serif;
+  font-size: 2.6rem;
+  color: var(--accent);
+}
+
 .case-study {
   padding: 32px;
   border-radius: var(--radius-xl);
@@ -491,6 +524,34 @@ p {
   padding-bottom: 76px;
 }
 
+.proof-section {
+  padding-top: 8px;
+}
+
+.proof-card {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 24px;
+  padding: 34px;
+  border-radius: var(--radius-xl);
+}
+
+.proof-points {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 12px;
+}
+
+.proof-points span {
+  padding: 11px 15px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #dce8f7;
+  font-weight: 600;
+}
+
 .contact-card {
   padding: 36px;
   border-radius: var(--radius-xl);
@@ -533,10 +594,12 @@ p {
 @media (max-width: 1080px) {
   .hero,
   .intro-grid,
+  .impact-grid,
   .case-columns,
   .project-grid,
   .skills-layout,
-  .credentials-grid {
+  .credentials-grid,
+  .proof-card {
     grid-template-columns: 1fr;
   }
 
